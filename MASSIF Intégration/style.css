@@ -1,0 +1,399 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body .imageFond {
+  display: flex;
+  background-image: url(Images/header.jpg);
+  background-repeat: no-repeat;
+  height: 550px;
+  width: 100%;
+  background-size: cover;
+  align-items: center;
+  flex-direction: column;
+}
+body .imageFond .entete {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 30px;
+}
+body .imageFond .entete img {
+  padding-right: 400px;
+}
+body .imageFond .entete .liens {
+  display: flex;
+  column-gap: 30px;
+}
+body .imageFond .entete .liens a {
+  text-decoration: none;
+  color: white;
+}
+body .imageFond .centrage {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 53%;
+}
+body .imageFond .centrage h2 {
+  color: white;
+  font-size: 70px;
+  padding-top: 150px;
+  font-weight: 100;
+}
+body .imageFond .centrage img {
+  padding-top: 40px;
+}
+body .imageFond .centrage h1 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 40px;
+}
+body .section1 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 100px;
+  height: 600px;
+  justify-content: center;
+  column-gap: 80px;
+}
+body .section1 .texte {
+  width: 30%;
+}
+body .section1 .texte h2 {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+  padding-bottom: 40px;
+}
+body .section1 .texte p {
+  color: #2d6187;
+  padding-bottom: 40px;
+}
+body .section1 .texte .cadre {
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+}
+body .section1 .texte .cadre p {
+  color: black;
+  padding: 10px 15px;
+}
+body .section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  width: 100%;
+  background-color: #effad3;
+}
+body .section2 h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  font-weight: 300;
+  padding: 20px;
+}
+body .section2 p {
+  text-align: center;
+  width: 46%;
+  color: #2d6187;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+body .section2 .chambres {
+  display: flex;
+  flex-direction: row;
+  column-gap: 50px;
+}
+body .section2 .chambres .solo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body .section2 .chambres .solo h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+body .section2 .chambres .solo p {
+  color: #28abb9;
+  font-weight: 700;
+}
+body .section2 .chambres .double {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body .section2 .chambres .double h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+body .section2 .chambres .double p {
+  color: #28abb9;
+  font-weight: 700;
+}
+body .section2 .chambres .famille {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body .section2 .chambres .famille h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+body .section2 .chambres .famille p {
+  color: #28abb9;
+  font-weight: 700;
+}
+body .section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+}
+body .section3 h2 {
+  font-family: 'Playfair Display', serif;
+  padding: 60px 0;
+  font-size: 40px;
+  font-weight: 500;
+}
+body .section3 .services {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 50px;
+}
+body .section3 .services .piscine {
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  border-color: #28abb9;
+  height: 300px;
+  width: 300px;
+  border-bottom-left-radius: 20px;
+  border-width: 2px;
+}
+body .section3 .services .piscine img {
+  height: 30px;
+  width: 43px;
+  margin: 40px 0 0 20px ;
+}
+body .section3 .services .piscine h3 {
+  font-family: 'Playfair Display', serif;
+  margin: 20px;
+  font-size: 30px;
+  font-weight: 500;
+}
+body .section3 .services .piscine p {
+  margin-left: 20px;
+  line-height: 25px;
+}
+body .section3 .services .wifi {
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  border-color: #28abb9;
+  height: 300px;
+  width: 300px;
+  border-bottom-left-radius: 20px;
+  border-width: 2px;
+}
+body .section3 .services .wifi img {
+  height: 33px;
+  width: 44px;
+  margin: 40px 0 0 20px;
+}
+body .section3 .services .wifi h3 {
+  font-family: 'Playfair Display', serif;
+  margin: 20px;
+  font-size: 30px;
+  font-weight: 500;
+}
+body .section3 .services .wifi p {
+  margin-left: 20px;
+  line-height: 25px;
+}
+body .section3 .services .restaurant {
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  border-color: #28abb9;
+  height: 300px;
+  width: 300px;
+  border-bottom-left-radius: 20px;
+  border-width: 2px;
+}
+body .section3 .services .restaurant img {
+  height: 44px;
+  width: 43px;
+  margin: 40px 0 0 20px;
+}
+body .section3 .services .restaurant h3 {
+  font-family: 'Playfair Display', serif;
+  margin: 20px;
+  font-size: 30px;
+  font-weight: 500;
+}
+body .section3 .services .restaurant p {
+  margin-left: 20px;
+  line-height: 25px;
+}
+body .section4 {
+  background-image: url(Images/hebergement.jpg);
+  height: 370px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .section4 :nth-child(1) {
+  color: white;
+  font-size: 25px;
+  padding-bottom: 25px;
+}
+body .section4 :nth-child(2) {
+  color: white;
+  font-size: 45px;
+  padding-bottom: 25px;
+}
+body .section4 .bouton {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 150px;
+  background-color: #28abb9;
+  border-radius: 5px;
+}
+body .section4 .bouton a {
+  text-decoration: none;
+  font-size: 15px;
+  padding-top: 10px;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+body footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body footer h2 {
+  font-family: 'Playfair Display', serif;
+  padding: 60px 0 30px 0;
+  font-size: 40px;
+  font-weight: 500;
+}
+body footer p {
+  color: #2d6187;
+  padding-bottom: 20px;
+}
+body footer .avis {
+  display: flex;
+  flex-direction: row;
+  column-gap: 50px;
+  padding-top: 70px;
+}
+body footer .avis .mike {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  width: 500px;
+  border-bottom-left-radius: 20px;
+  background-color: #a8dda8;
+  position: relative;
+}
+body footer .avis .mike .mike1 {
+  position: absolute;
+  left: 30px;
+  bottom: 180px;
+}
+body footer .avis .mike .mike2 {
+  margin-top: 70px;
+  margin-left: 40px;
+}
+body footer .avis .mike p {
+  color: black;
+  width: 380px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+body footer .avis .mike .bas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+body footer .avis .mike .bas .text p {
+  color: #2d6187;
+  margin-top: 20px;
+}
+body footer .avis .edward {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  width: 500px;
+  border-bottom-right-radius: 20px;
+  background-color: #a8dda8;
+  position: relative;
+}
+body footer .avis .edward .edward1 {
+  position: absolute;
+  left: 30px;
+  bottom: 180px;
+}
+body footer .avis .edward .edward2 {
+  margin-top: 70px;
+  margin-left: 40px;
+}
+body footer .avis .edward p {
+  color: black;
+  width: 380px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+body footer .avis .edward .bas1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+body footer .avis .edward .bas1 .text1 p {
+  color: #2d6187;
+  margin-top: 20px;
+}
+@media screen and (max-width: 768px) {
+  body header {
+    max-width: 100%;
+    height: 300px;
+  }
+  body header .imageFond {
+    width: 100%;
+    height: 300px;
+  }
+  body header .imageFond nav {
+    width: 100%;
+    height: 30px;
+  }
+  body .section1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
