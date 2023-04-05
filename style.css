@@ -414,6 +414,8 @@ body footer .avis .edward .bas1 .text1 p {
   body .section1 {
     display: flex;
     flex-wrap: wrap;
+    height: 550px;
+    padding-top: 60px;
   }
   body .section1 .texte h2 {
     font-size: 20px;
@@ -421,10 +423,12 @@ body footer .avis .edward .bas1 .text1 p {
   body .section1 .texte p {
     font-size: 13px;
   }
+  body .section2 {
+    height: 520px;
+  }
   body .section2 h2 {
     font-size: 20px;
     font-weight: 600;
-    margin-top: 20px;
   }
   body .section2 p {
     font-size: 13px;
@@ -436,18 +440,28 @@ body footer .avis .edward .bas1 .text1 p {
   }
   body .section2 .chambres .double {
     padding-top: 40px;
-    padding-left: 500px;
+    height: 415px;
+    width: 300px;
   }
   body .section2 .chambres .double h3 {
+    text-align: center;
+    width: 300px;
     font-size: 20px;
     font-weight: 600;
   }
+  body .section2 .chambres .double p {
+    width: 300px;
+  }
   body .section2 .chambres .famille {
     padding-top: 40px;
-    padding-right: 500px;
+    height: 415px;
+    width: 300px;
   }
   body .section2 .chambres .famille h3 {
     font-size: 20px;
     font-weight: 600;
+  }
+  body .section2 .chambres .famille p {
+    width: 300px;
   }
 }
