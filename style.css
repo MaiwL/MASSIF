@@ -431,7 +431,6 @@ body footer .avis .edward .bas1 .text1 p {
   }
   body .section2 h2 {
     font-size: 25px;
-    font-weight: 600;
   }
   body .section2 p {
     font-size: 13px;
@@ -502,7 +501,7 @@ body footer .avis .edward .bas1 .text1 p {
     width: 500px;
   }
   body .section1 {
-    height: 500px;
+    height: 450px;
     position: relative;
   }
   body .section1 .image img {
@@ -516,6 +515,7 @@ body footer .avis .edward .bas1 .text1 p {
   body .section1 .texte h2 {
     position: absolute;
     left: 48%;
+    font-size: 25px;
   }
   body .section1 .texte :nth-child(2) {
     position: absolute;
@@ -534,18 +534,97 @@ body footer .avis .edward .bas1 .text1 p {
   }
   body .section1 .texte .mobile {
     position: absolute;
-    top: 450px;
-    right: 85px;
+    top: 380px;
+    right: 175px;
     display: block;
   }
   body .section1 .texte .mobile a {
-    margin-right: 28px;
     color: black;
   }
+  body .section2 {
+    position: relative;
+    height: 350px;
+  }
   body .section2 h2 {
-    margin-top: 25px;
+    position: absolute;
+    padding: 0;
+    top: 10px;
   }
   body .section2 p:nth-child(2) {
     display: none;
+  }
+  body .section2 .chambres .double {
+    height: 300px;
+    position: absolute;
+    top: 35px;
+    right: 260px;
+  }
+  body .section2 .chambres .double img {
+    height: 200px;
+    width: 200px;
+  }
+  body .section2 .chambres .famille {
+    position: absolute;
+    height: 300px;
+    top: 35px;
+    left: 260px;
+  }
+  body .section2 .chambres .famille img {
+    height: 200px;
+    width: 200px;
+  }
+  body .section3 {
+    position: relative;
+    height: 350px;
+  }
+  body .section3 h2 {
+    font-size: 25px;
+  }
+  body .section3 .services .piscine {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    top: 100px;
+    left: 50px;
+  }
+  body .section3 .services .piscine img {
+    height: 20px;
+    width: 33px;
+    margin: 10px;
+  }
+  body .section3 .services .piscine h3 {
+    font-size: 25px;
+    margin: 10px;
+  }
+  body .section3 .services .piscine p:nth-child(3) {
+    font-size: 14px;
+    line-height: normal;
+  }
+  body .section3 .services .wifi {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    top: 100px;
+    right: 50px;
+  }
+  body .section3 .services .wifi img {
+    height: 28px;
+    width: 33px;
+    margin: 10px;
+  }
+  body .section3 .services .wifi h3 {
+    font-size: 25px;
+    margin: 10px;
+  }
+  body .section3 .services .wifi p:nth-child(3) {
+    font-size: 14px;
+    line-height: normal;
+  }
+  body footer p:nth-child(2) {
+    width: 400px;
   }
 }

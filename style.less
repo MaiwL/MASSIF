@@ -469,7 +469,6 @@ body{
             height: 520px;
             h2{
                 font-size: 25px;
-                font-weight: 600;
             }
             p{
                 font-size: 13px;
@@ -568,7 +567,7 @@ body{
         // **************Section 1***************
 
         .section1{
-            height: 500px;
+            height: 450px;
             position: relative;
             .image{
                 img{
@@ -584,6 +583,7 @@ body{
                 h2{
                     position: absolute;
                     left: 48%;
+                    font-size: 25px;
                 }
                 :nth-child(2){
                     position: absolute;
@@ -602,11 +602,10 @@ body{
                 }
                 .mobile{
                     position: absolute;
-                    top: 450px;
-                    right: 85px;
+                    top: 380px;
+                    right: 175px;
                     display: block;
                     a{
-                        margin-right: 28px;
                         color: black;
                     }
                 }
@@ -616,11 +615,101 @@ body{
         // *******************Section 2******************
 
         .section2{
+            position: relative;
+            height: 350px;
             h2{
-                margin-top: 25px;
+                position: absolute;
+                padding: 0;
+                top: 10px;
             }
             p:nth-child(2){
                 display: none;
+            }
+            .chambres{
+                .double{
+                    height: 300px;
+                    position: absolute;
+                    top: 35px;
+                    right: 260px;
+                    img{
+                        height: 200px;
+                        width: 200px;
+                    }
+                }
+                .famille{
+                    position: absolute;
+                    height: 300px;
+                    top: 35px;
+                    left: 260px;
+                    img{
+                        height: 200px;
+                        width: 200px;
+                    }
+                }
+            }
+        }
+
+        // **************Section 3***************
+
+        .section3{
+            position: relative;
+            height: 350px;
+            h2{
+                font-size: 25px;
+            }
+            .services{
+                .piscine{
+                    position: absolute;
+                    height: 200px;
+                    width: 200px;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    top: 100px;
+                    left: 50px;
+                    img{
+                        height: 20px;
+                        width: 33px;
+                        margin: 10px;
+                    }
+                    h3{
+                        font-size: 25px;
+                        margin: 10px;
+                    }
+                    p:nth-child(3){
+                        font-size: 14px;
+                        line-height: normal;
+                    }
+                }
+                .wifi{
+                    position: absolute;
+                    height: 200px;
+                    width: 200px;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    top: 100px;
+                    right: 50px;
+                    img{
+                        height: 28px;
+                        width: 33px;
+                        margin: 10px;
+                    }
+                    h3{
+                        font-size: 25px;
+                        margin: 10px;
+                    }
+                    p:nth-child(3){
+                        font-size: 14px;
+                        line-height: normal;
+                    }
+                }
+            }
+        }
+
+        // **************Fooetr******************
+
+        footer{
+            p:nth-child(2){
+                width: 400px;
             }
         }
     }
