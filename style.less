@@ -95,6 +95,9 @@ body{
                     padding: 10px 15px;
                 }
             }
+            .mobile{
+                display: none;
+            }
         }
     }
 
@@ -402,6 +405,7 @@ body{
 }
 
 // *********************RESPONSIVE**********************
+// *************TABLETTE***********
 
 @media screen and (max-width:768px){
     body{
@@ -464,7 +468,7 @@ body{
         .section2{
             height: 520px;
             h2{
-                font-size: 20px;
+                font-size: 25px;
                 font-weight: 600;
             }
             p{
@@ -504,6 +508,119 @@ body{
                 }
             }
         }
+
+        // **************Section 3******************
+
+        .section3{
+            height: 450px;
+            h2{
+                font-size: 25px;
+                padding: 30px 0;
+            }
+            .services{
+                .restaurant{
+                    display: none;
+                }
+            }
+        }
+
+        // **************Footer***************
+
+        footer{
+            h2{
+                font-size: 25px;
+                padding: 20px 0;
+            }
+            .avis{
+                .mike{
+                    display: none;
+                }
+            }
+        }
     }
     
+}
+
+// *******************Mobile*****************
+ 
+@media screen and (max-width:320px){
+    body{
+        header{
+            max-width: 100%;
+            .imageFond{
+                nav{
+                    padding: 0;
+                    .entete{
+                        height: 20px;
+                        img{
+                            padding: 0;
+                        }
+                    }
+                }
+                .centrage{
+                    h1{
+                        width: 300px;
+                    }
+                }
+            }
+        }
+        
+        // **************Section 1***************
+
+        .section1{
+            height: 500px;
+            position: relative;
+            .image{
+                img{
+                    position: absolute;
+                    right: 50%;
+                    width: 150px;
+                    height: 200px;
+                    object-fit: cover;
+                    border-bottom-left-radius: 20px;
+                }
+            }
+            .texte{
+                h2{
+                    position: absolute;
+                    left: 55%;
+                }
+                :nth-child(2){
+                    position: absolute;
+                    left: 55%;
+                    top: 25%;
+                }
+                :nth-child(3){
+                    position: absolute;
+                    top: 58%;
+                    width: 305px;
+                    right: 3%;
+                }
+                .cadre{
+                    display: none;
+                }
+                .mobile{
+                    position: absolute;
+                    top: 450px;
+                    right: 85px;
+                    display: block;
+                    a{
+                        margin-right: 28px;
+                        color: black;
+                    }
+                }
+            }
+        }
+
+        // *******************Section 2******************
+
+        .section2{
+            h2{
+                margin-top: 25px;
+            }
+            p:nth-child(2){
+                display: none;
+            }
+        }
+    }
 }
