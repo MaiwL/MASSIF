@@ -485,7 +485,7 @@ body footer .avis .edward .bas1 .text1 p {
     display: none;
   }
 }
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 565px) {
   body header {
     max-width: 100%;
   }
