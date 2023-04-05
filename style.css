@@ -625,18 +625,25 @@ body footer .avis .edward .bas1 .text1 p {
     font-size: 14px;
     line-height: normal;
   }
-  body footer {
-    height: 500px;
-  }
-  body footer p:nth-child(2) {
-    width: 400px;
-  }
-  body footer .avis {
-    height: 180px;
-    padding: 0;
+  body footer p {
+    font-size: 15px;
+    width: 300px;
   }
   body footer .avis .edward {
-    height: 180px;
+    position: relative;
+    height: 230px;
     width: 400px;
+  }
+  body footer .avis .edward .edward2 img {
+    position: absolute;
+    top: 40px;
+  }
+  body footer .avis .edward p {
+    width: 300px;
+  }
+  body footer .avis .edward .bas1 .guillemet1 {
+    position: absolute;
+    top: 180px;
+    left: 320px;
   }
 }
