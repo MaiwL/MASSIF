@@ -485,7 +485,7 @@ body footer .avis .edward .bas1 .text1 p {
     display: none;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
   body header {
     max-width: 100%;
   }
@@ -499,7 +499,7 @@ body footer .avis .edward .bas1 .text1 p {
     padding: 0;
   }
   body header .imageFond .centrage h1 {
-    width: 300px;
+    width: 500px;
   }
   body .section1 {
     height: 500px;
@@ -507,26 +507,27 @@ body footer .avis .edward .bas1 .text1 p {
   }
   body .section1 .image img {
     position: absolute;
-    right: 50%;
-    width: 150px;
-    height: 200px;
+    right: 58%;
+    width: 200px;
+    height: 300px;
     object-fit: cover;
-    border-bottom-left-radius: 20px;
+    border-bottom-left-radius: 30px;
   }
   body .section1 .texte h2 {
     position: absolute;
-    left: 55%;
+    left: 48%;
   }
   body .section1 .texte :nth-child(2) {
     position: absolute;
-    left: 55%;
+    left: 48%;
     top: 25%;
+    width: 270px;
   }
   body .section1 .texte :nth-child(3) {
     position: absolute;
-    top: 58%;
-    width: 305px;
-    right: 3%;
+    top: 42%;
+    width: 270px;
+    left: 48%;
   }
   body .section1 .texte .cadre {
     display: none;
